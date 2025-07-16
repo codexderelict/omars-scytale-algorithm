@@ -7,3 +7,5 @@ This program (so far) only encrypts text, though I plan on adding a decryption f
 HOW TO USE:
 This is a CLI program. Run it in Python. It'll ask you for the text to be encrypted, then it'll ask you the width of the scytale, and then return the encrypted text. Ez. 
 
+POSSIBLE FUTURE ADDITIONS:
+Splitting letters in strings as arrays would make it much easier both to encrypt and decrypt letters I found. Decryption algorithm would require strings to be configured differently (you can't use the "separate_words" thing for decryption), and working with lists is kind of inefficient. That could work.
