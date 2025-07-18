@@ -8,4 +8,8 @@ HOW TO USE:
 This is a CLI program. Run it in Python. It'll ask you for the text to be encrypted, then it'll ask you the width of the scytale, and then return the encrypted text. Ez. 
 
 POSSIBLE FUTURE ADDITIONS:
-Splitting letters in strings as arrays would make it much easier both to encrypt and decrypt letters I found. Decryption algorithm would require strings to be configured differently (you can't use the "separate_words" thing for decryption), and working with lists is kind of inefficient. That could work.
+~~Splitting letters in strings as arrays would make it much easier both to encrypt and decrypt letters I found. Decryption algorithm would require strings to be configured differently (you can't use the "separate_words" thing for decryption), and working with lists is kind of inefficient. That could work.~~
+Finally added! 
+
+GUI with TKinter or PySimpleGUI for ease of use. Grid could be created based on length OR width instead of just width. Wrapping all 4 variables (string, width, length, grid) in a class as attributes and encryption/decryption as methods would make the main() function substantially easier to read for me personally. 
+
