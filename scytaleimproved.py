@@ -1,5 +1,4 @@
 import math
-import string
 def get_string():
         string = str(input("Enter string here (whitespaces will be removed and it will be capitalized) ")).upper().replace(" ","")
         return string
