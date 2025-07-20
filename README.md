@@ -5,10 +5,10 @@ https://en.wikipedia.org/wiki/Scytale
 ~~This program (so far) only encrypts text, though I plan on adding a decryption function sometime in the future (in the works, just working on debugging)~~
 Finally added. See scytaleimproved.py for it. I kept the old one up for posterity, though I could probably make it a release. I'm still learning my way around GitHub.
 
-The first version processed the string through substrings. I chose an array of characters instead as that'd allow me to encrypt and decrypt with ease.
+The first version processed the string through substrings. I chose an array of characters instead as that'd allow me to encrypt and decrypt with ease. 
 
 HOW TO USE:
-This is a CLI program. Run it in Python. It'll ask you for the text to be encrypted, then it'll ask you the width of the scytale, and then return the encrypted text. Ez. 
+This is a CLI program. Run it in Python. It'll ask you first for a string. Then the width. Then it'll ask if you want to encrypt or decrypt. Then it'll return your string after encrypting/decrypting it. 
 
 POSSIBLE FUTURE ADDITIONS:
 ~~Splitting letters in strings as arrays would make it much easier both to encrypt and decrypt letters I found. Decryption algorithm would require strings to be configured differently (you can't use the "separate_words" thing for decryption), and working with lists is kind of inefficient. That could work.~~
