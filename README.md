@@ -16,3 +16,4 @@ Finally added!
 
 GUI with TKinter or PySimpleGUI for ease of use. Grid could be created based on length OR width instead of just width. Wrapping all 4 variables (string, width, length, grid) in a class as attributes and encryption/decryption as methods would make the main() function substantially easier to read for me personally. 
 
+Rewriting the program with OOP instead of complete functionality. The length, width, grid and string are much better as attributes of a Scytale class. Not to mention I have an entire function just to initialize the variables (init_scytale) in lieu of defining self attributes and being done with it that way. In this regard, the only two user inputted variables (string and width) could be taken as input and the rest can be gleamed from the two as methods. 
