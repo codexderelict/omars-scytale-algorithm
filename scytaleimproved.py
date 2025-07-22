@@ -6,8 +6,8 @@ def get_string():
 def get_width(string):
     while True:
         try:
-            width = int(input("Enter width here: "))
-            if width > len(string): # If the number inputted is greater than the length of the string, the loop doesn't break. 
+            width = int(input("Enter width of grid here: "))
+            if width >= len(string): # If the number inputted is greater than the length of the string, the loop doesn't break. 
                 print("Width is longer than the string. Please input a number smaller than the string.")
                 continue
             return width
