@@ -1,6 +1,6 @@
 import math
 def get_string():
-        string = str(input("Enter string here (whitespaces will be removed and it will be capitalized) ")).upper().replace(" ","")
+        string = str(input("Enter string here (whitespaces will be removed and it will be capitalized) ")).upper()
         return string
 #The function above removes whitespaces and turns everything uppercase both for simplicity and realism to an actual scytale. 
 def get_width(string):
