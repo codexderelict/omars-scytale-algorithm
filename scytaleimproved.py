@@ -24,7 +24,7 @@ def write_encryption(string, grid, width, length):
     i = 0 
     for y in range(length):
         for x in range(width):
-            grid[y][x] = string[i] if i < len(string) else "*"
+            grid[y][x] = string[i]
             i+=1
     return grid
 def read_encryption(grid, width, length):
@@ -37,7 +37,7 @@ def write_decryption(string, grid, width, length):
     i = 0 
     for x in range(width):
         for y in range(length):
-            grid[y][x] = string[i] if i < len(string) else "*"
+            grid[y][x] = string[i] 
             i+=1
     return grid
 def read_decryption(grid, width, length):
